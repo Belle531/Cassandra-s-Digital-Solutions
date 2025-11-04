@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 function App() {
   const [todos, setTodos] = useState([
-    { text: 'Finalize UX/UI for launch' },
-    { text: 'Review Q3 financial report' },
-    { text: 'Schedule team kickoff meeting' }
+    { text: 'Level Capstone is Due Soon' },
+    { text: 'Schedule a Meeting with Thomas Basham' },
+    { text: 'Schedule Meeting for Codex Class' }
   ]);
   const [input, setInput] = useState('');
 
