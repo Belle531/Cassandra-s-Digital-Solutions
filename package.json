@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "aws s3 sync dist/ s3://my-s3-app-cassandra --delete",
     "preview": "vite preview"
   },
   "dependencies": {
